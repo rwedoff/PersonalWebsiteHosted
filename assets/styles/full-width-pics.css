@@ -1,0 +1,184 @@
+.small-icon{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	vertical-align: top;
+}
+
+p, h1,h2,h3,h4,h5,h6{
+	font-family: Segoe WP, Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, "sans-serif"
+}
+
+.image-width{
+	width: 100%;
+}
+
+#linked-pic{
+	width: 75%;
+}
+
+.grid-padding{
+	padding: 10px;
+}
+
+.fixed{
+	position: fixed;
+}
+
+.sidebar-outer {
+    
+    position: relative;
+}
+
+.btn-primary{
+	background-color: #000233;
+}
+
+.page-background{
+	background: #000033;
+}
+
+a{
+	color: #000233;
+}
+
+ul > li {
+    margin-left: 10px;
+}
+
+
+li img{
+	display: block;
+	width: 40px;
+	margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social-icons{
+	float:left;
+}
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+#logo{
+	width: 30%;
+	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  	top: 10px;
+  	left: 0;
+  	position: fixed;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	right: 0;
+  	z-index: 2;
+  	padding: 0 10px;
+}
+
+.elevated-section{
+	background: #6699FF;
+	box-shadow: 4px 2px 4px;
+	
+}
+
+.text-color-white{
+	color: #FDFFFF;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#front-bg-img{
+	background: url('../images/cover_photo.png') no-repeat center center  ;
+	background-size: 100%;
+}
+
+#about-bg-img{
+	background: url('../images/locationphoto.png') no-repeat center center  ;
+	background-size: 100%;
+}
+
+#work-bg-img{
+	background: url('../images/Work Cover.png') no-repeat center center;
+	background-size: 100%;
+}
+
+.image-bg-fluid-height {
+	
+	
+	padding: 100px 0;
+    
+}
+@media screen and (min-width: 480px) {
+	.image-bg-fluid-height {
+		padding: 275px 0;
+	}
+ 
+}
+@media only screen and (min-width: 768px) {
+		.image-bg-fluid-height {
+		padding: 275px 0;
+	}
+}
+
+.nav-text{
+	color: #000233;
+}
+
+.image-bg-fixed-height {
+	background: url('https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15193665_1467632163250244_7452740802122343588_n.jpg?oh=e79aa9ea32d78efe243586dc07aac1d5&oe=58C20860') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+.nav-color {
+	background-color: #BBBDC0;	
+	box-shadow: 0px 2px 4px;
+}
