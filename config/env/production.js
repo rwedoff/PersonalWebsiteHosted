@@ -25,8 +25,12 @@ module.exports = {
    * Set the port in the production environment to 80                        *
    ***************************************************************************/
 
-  port: process.env.port,
-  hookTimeout: 300000,
+ // Use process.env.port to handle web requests to the default HTTP port
+     port: process.env.port,
+     // Increase hooks timout to 30 seconds
+     // This avoids the Sails.js error documented at https://github.com/balderdashy/sails/issues/2691
+     hookTimeout: 30000,
+
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *
    ***************************************************************************/
