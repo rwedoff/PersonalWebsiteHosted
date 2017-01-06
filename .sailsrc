@@ -6,5 +6,6 @@
         "deploy": {
             "module": "sails-deploy-azure"
         }
-    }
+  }
+
 }
