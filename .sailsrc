@@ -1,5 +1,10 @@
 {
   "generators": {
     "modules": {}
-  }
+  },
+  "commands": {
+        "deploy": {
+            "module": "sails-deploy-azure"
+        }
+    }
 }
